@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn init --y
+
+PATH: 
+  /Users/hc499/bin:/usr/local/opt/python/libexec/bin:~/Library/Python/3.7/bin:/usr/local/bin:/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin:/Users/hc499/Documents/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hc499/Library/Android/sdk/tools:/Users/hc499/Library/Android/sdk/platform-tools:/Users/hc499/Library/Android/sdk/emulator:/Users/hc499/Library/Android/sdk/platform-tools:/Users/hc499/Library/Android/sdk/emulator:/Users/hc499/Library/Android/sdk/tools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:125801:13)
+      at Interface.emit (events.js:193:13)
+      at Interface._ttyWrite (readline.js:820:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:193:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1093:36)
+      at ReadStream.emit (events.js:193:13)
+      at addChunk (_stream_readable.js:296:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-jenkins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js DEMO_PARAM_1='HELLO WORLD 1' DEMO_PARAM_2=2 DEMO_PARAM_3=true"
+  }
+}
