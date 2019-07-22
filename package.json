@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js DEMO_PARAM_1='HELLO WORLD 1' DEMO_PARAM_2=2 DEMO_PARAM_3=true",
-    "test": "mocha test --reporter mocha-junit-reporter"
+    "test": "mocha index.test.js --reporter mocha-junit-reporter"
   },
   "devDependencies": {
     "chai": "^4.2.0",
