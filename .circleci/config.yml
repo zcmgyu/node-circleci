@@ -21,7 +21,7 @@ jobs:
       - run: yarn install
       - run: mkdir ~/junit
       - run:
-          command: mocha test --reporter mocha-junit-reporter
+          command: yarn test
           environment:
             MOCHA_FILE: ~/junit/test-results.xml
           when: always
