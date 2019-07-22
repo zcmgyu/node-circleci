@@ -5,5 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js DEMO_PARAM_1='HELLO WORLD 1' DEMO_PARAM_2=2 DEMO_PARAM_3=true"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "mocha-junit-reporter": "^1.23.1"
   }
 }
